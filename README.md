@@ -29,7 +29,7 @@ This model is using Tensorflow and Keras for prediction of the high resolution i
 * os
 * sys
 
-The first time you run the code, it asks you to download the training and test files. The data will be downloaded from Zenodo. In case it fails, this is the [Link](https://zenodo.org/record/6659509) to download manually. There are two variables at the begining of the Main.py named as "ReloadModel" and "TrainModel". You can change these varables as follow for different functionalities:
+The first time you run the code, it asks you to download the training and test files. The data will be downloaded from Zenodo. In case it fails, this is the [Link](https://zenodo.org/record/6659509) to download manually. There are two variables at the begining of the Main.py named as "ReloadModel" and "TrainModel". You can change these variables as follow for different functionalities:
 
 * Train from scratch: ReloadModel=0 ; TrainModel=1
 * Train more: ReloadModel=1 ; TrainModel=1
