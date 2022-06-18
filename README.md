@@ -19,7 +19,16 @@ As another visual presentation, Figure above illustrates two examples of image r
 Based on the achieved resemblance between the images, the presented method in this study is suggested to be used prior to manual or machine-based analysis of placenta histological images, especially in the cases where image quality is a limitation. In our studied cases, the trained model can improve the image quality approximately from 20X magnification to 40X magnification. The method does not only sharpen the edges and intensified the weak signals but also creates local details and textures within the villous space as they exist in an original high-resolution image.
 
 ## How to run the code
-This model 
+This model is using Tensorflow and Keras for prediction of the high resolution images. This is the list of required packages to run the code: 
+* numpy
+* tensorflow
+* keras
+* urllib
+* cv2
+* h5py
+* os
+* sys
+The first time you run the code, it asks you to download the training and test files. The data will be downloaded from Zenodo. In case it fails, this is the [Link](https://zenodo.org/record/6659509) to download manually. 
 
 ## Citation
 Arash Rabbani; Masoud Babaei, Resolution enhancement of placenta histological images using deep learning, Proceedings of the 4th International Conference on Statistics: Theory and Applications (ICSTA'22), Prague, Czech Republic – July 28- 30, 2022. 
